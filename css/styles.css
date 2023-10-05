@@ -46,6 +46,7 @@ border-bottom: 1px solid #e7e9fc;
     display: flex;
     padding: 0 15px;
     width: 1158px;
+    margin: 0 auto;
 }
 
 .header-nav {
@@ -176,16 +177,16 @@ gap: 24px;
 }
 
 .main-section-velues-list-item {
-    width calc((100% - 3 * 24px) / 4);
+width: calc((100% - 72px) / 4);
 }
 
 .main-section-velues-list-title {
+    margin-bottom: 8px;
     color:#2E2F42;
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
-    letter-spacing: 0.02em
-    margin-bottom: 8px;
+    letter-spacing: 0.02em;
 }
 
 .main-section-velues-list-text {color:#434455;
@@ -219,7 +220,7 @@ gap: 24px;
 .main-section-team-list-item {
 background-color: #FFFFFF;
 border-radius: 0px 0px 4px 4px;
-width: calc((100% - 72px) / 4);
+width: calc((100% - 3 * 24px) / 4);
 }
 
 .main-section-team-list-item-image {
@@ -273,7 +274,7 @@ margin-bottom: 72px;}
 }
 
 .main-section-portfolio-list-item {
-    width: calc((100% - 48px) / 3);
+width: calc((100% - 48px) / 3);
 }
 
 .main-section-portfolio-list-item-image {
